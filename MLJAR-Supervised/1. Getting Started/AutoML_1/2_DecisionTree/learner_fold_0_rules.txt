@@ -1,0 +1,16 @@
+if (relationship > 0.5) and (capital-gain <= 7073.5) and (relationship <= 4.5) then class: <=50K (proba: 95.19%) | based on 9,755 samples
+
+if (relationship <= 0.5) and (education-num <= 12.5) and (capital-gain <= 5095.5) then class: <=50K (proba: 70.18%) | based on 4,940 samples
+
+if (relationship <= 0.5) and (education-num > 12.5) and (capital-gain <= 5095.5) then class: >50K (proba: 67.94%) | based on 1,906 samples
+
+if (relationship > 0.5) and (capital-gain <= 7073.5) and (relationship > 4.5) then class: <=50K (proba: 57.36%) | based on 856 samples
+
+if (relationship <= 0.5) and (education-num > 12.5) and (capital-gain > 5095.5) then class: >50K (proba: 99.72%) | based on 356 samples
+
+if (relationship <= 0.5) and (education-num <= 12.5) and (capital-gain > 5095.5) then class: >50K (proba: 98.44%) | based on 257 samples
+
+if (relationship > 0.5) and (capital-gain > 7073.5) and (fnlwgt > 25115.5) then class: >50K (proba: 97.12%) | based on 243 samples
+
+if (relationship > 0.5) and (capital-gain > 7073.5) and (fnlwgt <= 25115.5) then class: <=50K (proba: 100.0%) | based on 2 samples
+
